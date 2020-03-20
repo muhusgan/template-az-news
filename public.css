@@ -1,0 +1,95 @@
+body{
+    background-color: white;
+}
+a{
+  text-decoration: none;
+  color: black;
+  transition: 0.2s;
+}
+a:hover{
+  color: #ffa34d;
+  text-decoration: none;
+}
+a:active{
+  text-decoration: none;
+}
+#header{
+  background-color: #000000;
+  color:white;
+  font-size: 12px;
+}
+#logo{
+  left: 10px
+}
+.color1{
+  background-color: #ffe7e6;
+  color: black;
+}
+.color2{
+  background-color: #e1fcff;
+  color: black;
+}
+.color3{
+  background-color: #f4ffd5;
+  color: black;
+}
+
+.no-border{
+    border: none !important;
+}
+.no-margin-top{
+  margin-top: 0px !important;
+}
+.no-margin-bottom{
+  margin-bottom: 0px !important;
+}
+.no-margin-left{
+  margin-left: 0px !important;
+}
+.no-margin-right{
+  margin-right: 0px !important;
+}
+.no-margin{
+  margin:0px !important;
+}
+.no-padding{
+  padding: 0px 0px !important;
+}
+.no-padding-right{
+  padding-right: 0px !important;
+}
+.no-padding-left{
+  padding-left: 0px !important;
+}
+.no-padding-top{
+  padding-top: 0px !important;
+}
+.no-padding-bottom{
+  padding-bottom: 0px !important;
+}
+
+/* margin-top */
+.mt-10{
+  margin-top: 10px !important;
+}
+.mt-20{
+  margin-top: 20px !important;
+}
+.mt-30{
+  margin-top: 30px !important;
+}
+/* margin-bottom */
+.mb-10{
+  margin-bottom: 10px !important;
+}
+.mb-20{
+  margin-bottom: 20px !important;
+}
+.mb-30{
+  margin-bottom: 30px !important;
+}
+.imun-absolute{
+ height: inherit;
+ width: 100%;
+ position: inherit;
+}

@@ -1,0 +1,105 @@
+.top-header{
+  padding-top:10px;
+  transition: 2s;
+  background-color: white;
+}
+.sub-top-header{
+  position: relative;
+  background-color: white;
+}
+
+.link-sosmed{
+  cursor: pointer;
+}
+.link-sosmed i{
+  font-size: 20px;
+  transition: 0.5s;
+}
+.link-sosmed i:hover{
+  /* animation-duration: 2s; */
+  transform: rotateY(180deg);
+  color: red;
+}
+.item-header{
+  height: 110px;
+  position: relative;
+}
+
+.item-header img{
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.icon{
+  height: 15px;
+  margin-right: 10px;
+}
+
+.nav-menu{
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  box-shadow: 0px 0px 36px 0 rgba(0,0,0,.1);
+  border-top: 1px #eee solid;
+}
+.input-search{
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility 0s linear 0.33s, opacity 0.33s linear;
+  position: absolute;
+  left: -160px;
+  border: 1px #c1bfb5 solid;
+}
+.form-search{
+  position: relative;
+}
+.form-search:hover .input-search{
+  display: inline-block;
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0s;
+}
+.form-search: .input-search{
+  display: inline-block;
+}
+.form-search:active .input-search{
+  display: inline-block;
+  position: absolute;
+}
+.img-banner{
+  float: right;
+}
+.header-info{
+  margin-top: 20px;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 30px;
+}
+.header-info .red-box{
+  position: relative;padding:11px 0; background-color:#eb4511;
+  text-transform: uppercase;
+  color: #fefdff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+}
+.header-info .text{
+  margin: auto;
+  height: 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+@media (max-width: 720px){
+  .top-header{
+      display: none;
+  }
+}

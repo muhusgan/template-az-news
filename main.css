@@ -1,0 +1,75 @@
+.trending-top{
+  border-bottom: 1px solid #eee;
+  padding-bottom: 30px;
+}
+.trending-main-first{
+  overflow: hidden;
+  position: relative;
+}
+.trending-main-first img{
+  width: 100%;
+}
+
+
+.trending-main-first .info{
+  position: absolute;
+  bottom: 0px;
+  padding: 20px;
+}
+.trending-main-first .box{
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: #fff9c6;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  width: 100px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+.trending-main-first .title-text{
+  height: auto;
+  color: white;
+  font-size: 5.5vh;
+}
+.trending-main-first .mask{
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  background-image: linear-gradient( #fff0, black );
+  opacity: 0.6;
+}
+.item-trading{
+  overflow: hidden;
+}
+.item-trading img{
+  height: 100%;
+}
+.tagline{
+  margin-top: 30px;
+  margin-bottom:20px;
+  margin-right: 5px;
+  font-size: 12px;
+}
+.tagline span{
+  padding: 8px;
+  font-size: 10px;
+  line-height: 1;
+}
+/* side bar */
+.item-sidebar{
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* weekly-top-news */
+.weekly-top-news{
+  padding-bottom: 30px;
+}
+.weekly-top-news .head{
+  font-size: 20px;
+  font-weight: 600;
+}
